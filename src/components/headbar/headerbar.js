@@ -8,10 +8,10 @@ import { ReactComponent as ChevronIcon } from './icons/chevron.svg';
 import { ReactComponent as ArrowIcon } from './icons/arrow.svg';
 import { ReactComponent as BoltIcon } from './icons/bolt.svg';
 
-import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect, useRef, Component } from 'react';
+import {Route, NavLink} from 'react-router-dom'
 import { CSSTransition } from 'react-transition-group';
-import HeaderMenuData from './HeaderMenuData';
+import headermenudata from './headermenudata'
 
 
 
@@ -42,9 +42,9 @@ function NavItem(props) {
 
   return (
     <li className="nav-item">
-      <Link to="#" className="icon-button" onClick={() => setOpen(!open)}>
+      <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
         {props.icon}
-      </Link>
+      </a>
 
       {open && props.children}
     </li>
@@ -65,14 +65,26 @@ function DropdownMenu() {
     setMenuHeight(height);
   }
 
-  function DropdownItem(props) {
-    return (
-      <Link to="#" className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
-        <span className="icon-button">{props.leftIcon}</span>
-        {props.children}
-        <span className="icon-right">{props.rightIcon}</span>
-      </Link>
-    );
+  class DropdownItem extends Component {
+    
+    renderLinks(){
+      return headermenudata.map((props, index) => {
+        return (
+          <NavLink to={props.path} key={index} className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
+            <span className="icon-button">{props.leftIcon}</span>
+            {props.title}
+            <span className="icon-right">{props.rightIcon}</span>
+          </NavLink>
+        )
+     })
+    }
+    render() {
+      return (
+        <>
+          {this.renderLinks() }
+        </>
+      )
+    }
   }
 
   return (
@@ -85,30 +97,15 @@ function DropdownMenu() {
         unmountOnExit
         onEnter={calcHeight}>
         <div className="menu">
-          <DropdownItem>My Profile</DropdownItem>
-          <DropdownItem
-            leftIcon={<CogIcon />}
-            rightIcon={<ChevronIcon />}
-            goToMenu="settings">
-            Settings
-          </DropdownItem>
+        <DropdownItem></DropdownItem>
+
+
         </div>
       </CSSTransition>
 
-      <CSSTransition
-        in={activeMenu === 'settings'}
-        timeout={500}
-        classNames="menu-secondary"
-        unmountOnExit
-        onEnter={calcHeight}>
-        <div className="menu">
-          <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>My Tutorial</h2>
-          </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}>HTML</DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}>CSS</DropdownItem>
-          </div>
-      </CSSTransition>
+
+
+
     </div>
   );
 }
