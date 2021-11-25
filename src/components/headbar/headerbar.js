@@ -8,16 +8,24 @@ import { ReactComponent as ChevronIcon } from './icons/chevron.svg';
 import { ReactComponent as ArrowIcon } from './icons/arrow.svg';
 import { ReactComponent as BoltIcon } from './icons/bolt.svg';
 
+
+
 import React, { useState, useEffect, useRef, Component } from 'react';
 import {Route, NavLink} from 'react-router-dom'
 import { CSSTransition } from 'react-transition-group';
 import headermenudata from './headermenudata'
 
+import ChangeLng from './changelng/changelng';
+
+
 
 
 function HeaderBar() {
+
+ 
   return (
     <Navbar>
+      <ChangeLng />
       <NavItem icon={<PlusIcon />} />
       <NavItem icon={<BellIcon />} />
       <NavItem icon={<MessengerIcon />} />
@@ -70,7 +78,10 @@ function DropdownMenu() {
     renderLinks(){
       return headermenudata.map((props, index) => {
         return (
-          <NavLink to={props.path} key={index} className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
+          <NavLink to={props.path}
+           key={index}
+           className="menu-item" 
+           onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
             <span className="icon-button">{props.leftIcon}</span>
             {props.title}
             <span className="icon-right">{props.rightIcon}</span>
@@ -97,7 +108,9 @@ function DropdownMenu() {
         unmountOnExit
         onEnter={calcHeight}>
         <div className="menu">
-        <DropdownItem></DropdownItem>
+        <DropdownItem />
+
+        
 
 
         </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { useTranslation } from 'react-i18next'
 
 const SidebarLink = styled(Link)`
   display: flex;
@@ -19,6 +20,8 @@ const SidebarLink = styled(Link)`
     cursor: pointer;
   }
 `;
+
+
 
 const SidebarLabel = styled.span`
   margin-left: 16px;
@@ -41,6 +44,7 @@ const DropdownLink = styled(Link)`
 `;
 
 const SubMenu = ({ item }) => {
+  const { t } = useTranslation();
   const [subnav, setSubnav] = useState(false);
 
   const showSubnav = () => setSubnav(!subnav);
@@ -50,7 +54,7 @@ const SubMenu = ({ item }) => {
       <SidebarLink to={item.path} onClick={item.subNav && showSubnav}>
         <div>
           {item.icon}
-          <SidebarLabel>{item.title}</SidebarLabel>
+          <SidebarLabel>{t(item.title)}</SidebarLabel>
         </div>
         <div>
           {item.subNav && subnav
@@ -65,7 +69,7 @@ const SubMenu = ({ item }) => {
           return (
             <DropdownLink to={item.path} key={index}>
               {item.icon}
-              <SidebarLabel>{item.title}</SidebarLabel>
+              <SidebarLabel>{t(item.title)}</SidebarLabel>
             </DropdownLink>
           );
         })}
