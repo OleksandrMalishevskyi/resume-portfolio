@@ -12,13 +12,13 @@ i18next
 
     fallbackLng: "en",
     detection: {
-      order: [ 'cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],
+      order: [ 'htmlTag', 'cookie', 'localStorage', 'path', 'subdomain'],
       caches: ['cookie'],
     },
     backend: {
       loadPath: '/assets/locales/{{lng}}/translation.json',
     },
-    react: {useSuspense: true},
+    react: {useSuspense: false},
 
   });
 

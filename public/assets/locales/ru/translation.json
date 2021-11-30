@@ -2,6 +2,18 @@
   "app_title": "заглавие",
   "language": "язык",
   "welcome_message": "Добро пожаловать",
-  "Home": "Home(ru)"
+  "Preview": "Предварительный просмотр",
+  "Home_Page": "Домашняя страница",
+  "About": "About",
+  "Edu_a_Know": "Education and Knowledge",
+  "Education": "Образование",
+  "Knowledge": "Knowledge",
+  "Exp_a_Skil": "Experience and Skills",
+  "Experience": "Опыт",
+  "Skills": "Skills",
+  "Works": "Works(Portfolio)",
+  "Contacts": "Contacts"
+
+
  
 }

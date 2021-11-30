@@ -2,6 +2,18 @@
   "app_title": "Заголовок",
   "language": "Мова",
   "welcome_message": "Ласкаво просимо!",
-  "Home": "Дім"
+  "Preview": "Попередній перегляд",
+  "Home_Page": "Домашня сторінка",
+  "About": "Про мене",
+  "Edu_a_Know": "Education and Knowledge",
+  "Education": "Освіта",
+  "Knowledge": "Knowledge",
+  "Exp_a_Skil": "Experience and Skills",
+  "Experience": "Досвід",
+  "Skills": "Skills",
+  "Works": "Works(Portfolio)",
+  "Contacts": "Contacts"
+
+
   
 }

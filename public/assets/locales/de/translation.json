@@ -2,6 +2,19 @@
   "app_title": "Titel",
   "language": "Sprache",
   "welcome_message": "Willkomen",
-  "Home": "Home(de)"
+
+  "Preview": "Vorschau",
+  "Home_Page": "Startseite",
+  "About": "Über mich",
+  "Edu_a_Know": "Bildung und Wissen",
+  "Education": "Bildung",
+  "Knowledge": "Wissen",
+  "Exp_a_Skil": "Erfahrung und Fähigkeiten",
+  "Experience": "Erfahrung",
+  "Skills": "Fähigkeiten",
+  "Works": "Werke (Portfolio)",
+  "Contacts": "Kontakte"
  
 }
+
+

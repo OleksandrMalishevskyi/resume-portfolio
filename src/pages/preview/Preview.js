@@ -2,11 +2,11 @@ import React from 'react';
 import { useTranslation } from 'react-i18next'
 
 
-const Home = () => {
+const Preview = () => {
   const { t } = useTranslation()
   return (
-    <div className='home'>
-      <h1>{t('Home_Page')}</h1>
+    <div className='preview'>
+      <h1>{t('Preview')}</h1>
       
 
 
@@ -16,4 +16,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Preview;

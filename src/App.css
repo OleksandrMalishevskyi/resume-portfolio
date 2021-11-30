@@ -24,10 +24,18 @@
   font-family: 'Lato', sans-serif;
 }
 
+.preview,
 .home,
-.reports,
-.products,
-.team,
+.about,
+.eduaknow,
+.education,
+.knowledge,
+.expaskill,
+.experience,
+.skills,
+
+.portfolio,
+.contacts,
 .reports {
   display: flex;
   height: 90vh;
