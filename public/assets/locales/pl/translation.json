@@ -2,17 +2,18 @@
   "app_title": "Tytuł",
   "language": "Język",
   "welcome_message": "Witamy",
+
   "Preview": "Prapremiera",
   "Home_Page": "Strona główna",
-  "About": "About",
-  "Edu_a_Know": "Education and Knowledge",
+  "About": "O mnie",
+  "Edu_a_Know": "Edukacja i wiedza",
   "Education": "Edukacja",
-  "Knowledge": "Knowledge",
-  "Exp_a_Skil": "Experience and Skills",
+  "Knowledge": "Wiedza",
+  "Exp_a_Skil": "Doświadczenie i umiejętności",
   "Experience": "Doświadczenie",
-  "Skills": "Skills",
-  "Works": "Works(Portfolio)",
-  "Contacts": "Contacts"
+  "Skills": "umiejętności",
+  "Works": "Prace(Portfel)",
+  "Contacts": "Łączność"
 }
 
 

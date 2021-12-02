@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Eduaknow = () => {
+    const { t } = useTranslation()
     return (
         <div className='eduaknow'>
-            <h1>Eduaknow</h1>
+            <h1>{t('Edu_a_Know')}</h1>
         </div>
     )
 }

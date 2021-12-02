@@ -46,7 +46,7 @@ export const SidebarData = [
     ]
   },
   {
-    title: 'Exp_a_Skill',
+    title: 'Exp_a_Skil',
     path: '/expaskill',
     icon: <FaIcons.FaEnvelopeOpenText />,
 
@@ -67,7 +67,7 @@ export const SidebarData = [
     ]
   },
   {
-    title: 'Works(Portfolio)',
+    title: 'Works',
     path: '/portfolio',
     icon: <IoIcons.IoMdHelpCircle />
   },

@@ -9,16 +9,10 @@ import Eduaknow from './pages/eduaknow/Eduaknow';
 import Education from './pages/education/Education';
 import Knowledge from './pages/knowledge/Knowledge';
 import Expaskill from './pages/expaskill/Expaskill';
-import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/Reports';
 import Experience from './pages/experience/Experience';
 import Skills from './pages/skills/Skills';
 import Portfolio from './pages/portfolio/Portfolio';
-
 import Contacts from './pages/contacts/Contacts';
-
-
-
-
 
 
 
@@ -26,8 +20,6 @@ import Contacts from './pages/contacts/Contacts';
 
 function App() {
  
-
-
   return (
     
     <div className="wrapper">

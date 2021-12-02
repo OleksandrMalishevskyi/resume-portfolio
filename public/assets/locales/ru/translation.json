@@ -1,18 +1,18 @@
 {
   "app_title": "заглавие",
-  "language": "язык",
+  "language": "Zзык",
   "welcome_message": "Добро пожаловать",
-  "Preview": "Предварительный просмотр",
+  "Preview": "Предурительный просмотр",
   "Home_Page": "Домашняя страница",
-  "About": "About",
-  "Edu_a_Know": "Education and Knowledge",
+  "About": "Про меня",
+  "Edu_a_Know": "Образование и знания",
   "Education": "Образование",
-  "Knowledge": "Knowledge",
-  "Exp_a_Skil": "Experience and Skills",
+  "Knowledge": "Знания",
+  "Exp_a_Skil": "Опыт и навыки",
   "Experience": "Опыт",
-  "Skills": "Skills",
-  "Works": "Works(Portfolio)",
-  "Contacts": "Contacts"
+  "Skills": "навыки",
+  "Works": "Работы (Портфолио)",
+  "Contacts": "Контакты"
 
 
  
