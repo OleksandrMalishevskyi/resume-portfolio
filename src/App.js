@@ -1,6 +1,8 @@
 import './App.css';
 import HeaderBar from './components/headbar/headerbar';
 import Sidebar from './components/sidebar/Sidebar';
+import Footer from './components/footer/footer';
+import Clock from './components/footer/clock/Clock';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Preview from './pages/preview/Preview'
 import Home from './pages/home/Home';
@@ -42,6 +44,8 @@ function App() {
             <Route path='/contacts' exact component={Contacts} />
 {/*         <Route path='/reports/reports3' exact component={ReportsThree} /> */}
           </Switch>
+          <Footer id='footer'/>
+          <Clock id='clock'/>
           </div>
       </Router>
       

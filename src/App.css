@@ -2,7 +2,9 @@
 	display: grid;
 	grid-template-columns:auto;
 	grid-template-rows: auto;
-	grid-template-areas: "sidebar headerbar ""content content ";
+	grid-template-areas:  "sidebar headerbar "
+                        "content content "
+                        "footer clock";
 }
 #sidebar {
 	grid-area: sidebar;
@@ -12,6 +14,12 @@
 }
 #content {
 	grid-area: content;
+}
+#clock {
+	grid-area: clock;
+}
+#footer {
+	grid-area: footer;
 }
 
 
@@ -33,12 +41,11 @@
 .expaskill,
 .experience,
 .skills,
-
 .portfolio,
 .contacts,
 .reports {
   display: flex;
-  height: 90vh;
+  height: 81vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;

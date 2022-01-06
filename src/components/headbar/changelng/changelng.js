@@ -1,7 +1,9 @@
 import React, { useState} from 'react';
 import { ReactComponent as PlanIcon } from '../icons/flags/planet.svg';
 import i18next from 'i18next';
+import { useTranslation } from 'react-i18next'
 import languages from './languagedata';
+import './changelng.css'
 
 export default function ChangeLng() {
     return (
@@ -14,15 +16,18 @@ export default function ChangeLng() {
 
 function LngBtnItem(props) {
     const [open, setOpen] = useState(false);
+    const { t } = useTranslation()
   
     return (
       <li className="nav-item">
         <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
-          <PlanIcon />
+          <PlanIcon></PlanIcon>
+          
         </a>
         
-  
+        
         {open && props.children}
+        <span>{t('language')}</span>
       </li>
     );
   }

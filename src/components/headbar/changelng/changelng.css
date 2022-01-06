@@ -8,6 +8,9 @@ ul {
     color: var(--text-color);
     text-decoration: none;;
   }
+  span {
+    color: #fff
+  }
   
   /* Top Navigation Bar */
   

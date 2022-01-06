@@ -4,7 +4,8 @@ import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
 import * as MdIcons from 'react-icons/md';
-import * as SiIcons from 'react-icons/si'
+import * as SiIcons from 'react-icons/si';
+import * as GrIcons from 'react-icons/gr';
 
 export const SidebarData = [
   {
@@ -69,12 +70,12 @@ export const SidebarData = [
   {
     title: 'Works',
     path: '/portfolio',
-    icon: <IoIcons.IoMdHelpCircle />
+    icon: <SiIcons.SiVectorworks />
   },
   {
     title: 'Contacts',
     path: '/contacts',
-    icon: <IoIcons.IoMdHelpCircle />
+    icon: <AiIcons.AiFillContacts />
   },
  /*  {
     title: 'Reports',
