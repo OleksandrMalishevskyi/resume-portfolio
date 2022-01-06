@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/resume-portfolio/static/css/main.c853a95e.chunk.css",
+    "main.js": "/resume-portfolio/static/js/main.20454973.chunk.js",
+    "main.js.map": "/resume-portfolio/static/js/main.20454973.chunk.js.map",
+    "runtime-main.js": "/resume-portfolio/static/js/runtime-main.0eb3d98a.js",
+    "runtime-main.js.map": "/resume-portfolio/static/js/runtime-main.0eb3d98a.js.map",
+    "static/js/2.52de7877.chunk.js": "/resume-portfolio/static/js/2.52de7877.chunk.js",
+    "static/js/2.52de7877.chunk.js.map": "/resume-portfolio/static/js/2.52de7877.chunk.js.map",
+    "index.html": "/resume-portfolio/index.html",
+    "static/css/main.c853a95e.chunk.css.map": "/resume-portfolio/static/css/main.c853a95e.chunk.css.map",
+    "static/js/2.52de7877.chunk.js.LICENSE.txt": "/resume-portfolio/static/js/2.52de7877.chunk.js.LICENSE.txt",
+    "static/media/arrow.2e552680.svg": "/resume-portfolio/static/media/arrow.2e552680.svg",
+    "static/media/bell.f0c76da2.svg": "/resume-portfolio/static/media/bell.f0c76da2.svg",
+    "static/media/bolt.bbfd3d7a.svg": "/resume-portfolio/static/media/bolt.bbfd3d7a.svg",
+    "static/media/caret.17f0a4fb.svg": "/resume-portfolio/static/media/caret.17f0a4fb.svg",
+    "static/media/chevron.52254b8e.svg": "/resume-portfolio/static/media/chevron.52254b8e.svg",
+    "static/media/de1.1708c5f7.svg": "/resume-portfolio/static/media/de1.1708c5f7.svg",
+    "static/media/gb.516897fd.svg": "/resume-portfolio/static/media/gb.516897fd.svg",
+    "static/media/getFetch.cjs": "/resume-portfolio/static/media/getFetch.582d29c4.cjs",
+    "static/media/messenger.39261066.svg": "/resume-portfolio/static/media/messenger.39261066.svg",
+    "static/media/pl.2b5541c5.svg": "/resume-portfolio/static/media/pl.2b5541c5.svg",
+    "static/media/planet.92684903.svg": "/resume-portfolio/static/media/planet.92684903.svg",
+    "static/media/plus.d5a88a59.svg": "/resume-portfolio/static/media/plus.d5a88a59.svg",
+    "static/media/ru.7e04b988.svg": "/resume-portfolio/static/media/ru.7e04b988.svg",
+    "static/media/ua.0551427e.svg": "/resume-portfolio/static/media/ua.0551427e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0eb3d98a.js",
+    "static/js/2.52de7877.chunk.js",
+    "static/css/main.c853a95e.chunk.css",
+    "static/js/main.20454973.chunk.js"
+  ]
+}
